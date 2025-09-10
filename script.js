@@ -23,7 +23,7 @@ for (let i = 1; i <= 25; i++) {
   card.innerHTML = `<h3>Day ${i}</h3><p>Click to view PDF</p>`;
 
   // 🔽 Your daily training PDFs
-  let pdfPath = `pdfs/day${i}.pdf`; 
+  let pdfPath = `pdfs/DAY${i}.pdf`; 
 
   card.onclick = () => {
     window.open(pdfPath, "_blank");  // Opens PDF in new tab
